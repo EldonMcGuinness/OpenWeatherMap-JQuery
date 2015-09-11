@@ -2,11 +2,12 @@
 (function( $ ) {
  
   var settings = {};
-  var defer = $.Deferred();
+  var defer = null;
 
   // Plugin definition.
   $.OpenWeatherMap = function( options ) {
     settings = options;
+    defer = $.Deferred();
     getConditions(settings);
     return defer.promise();
   };
