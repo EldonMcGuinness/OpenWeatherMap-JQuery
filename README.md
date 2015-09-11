@@ -69,3 +69,5 @@ $.OpenWeatherMap({
   $("#weather i").addClass("owf-"+data.weather[0].id+time);
 });
 ```
+###Limitations:
+Keeping in mind HTTPS is only available if you subscribe to the OpenWeatherMap.org Pro account, if you are running a site on HTTPS you will not be able to use the service.
