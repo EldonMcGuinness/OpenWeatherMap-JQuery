@@ -71,3 +71,8 @@ $.OpenWeatherMap({
 ```
 ###Limitations:
 Keeping in mind HTTPS is only available if you subscribe to the OpenWeatherMap.org Pro account, if you are running a site on HTTPS you will not be able to use the service.
+
+###License
+This code is released under the MIT license, feel free to use it in your projects, 
+but keep in mind you have to give credit to the author. For more information see then
+License.txt file.

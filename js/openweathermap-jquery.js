@@ -1,4 +1,11 @@
-//OpenWeatherMap-JQuery
+/*
+ *  OpenWeatherMap-JQuery.js - v1.0.0
+ *  Jquery Module for using OpenWeatherMap.org API
+ *  https://github.com/EldonMcGuinness/OpenWeatherMap-JQuery
+ *
+ *  Made by Eldon McGuinness
+ *  Under MIT License
+ */
 (function( $ ) {
  
   var settings = {};
