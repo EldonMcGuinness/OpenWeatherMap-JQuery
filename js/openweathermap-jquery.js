@@ -20,7 +20,7 @@
   };
 
   function getConditions( options ){
-    $.getJSON( "http://api.openweathermap.org/data/2.5/weather", settings )
+    $.getJSON( "api.openweathermap.org/data/2.5/weather", settings )
     .done(function(data){
       $.extend(data, {
         isDay:( data.dt > data.sys.sunrise && data.dt < data.sys.sunset ) ? true : false
